@@ -11,6 +11,6 @@ public class SampleController {
     @RequestMapping(value="/")
     @ResponseBody
     public String sampleHome() {
-        return "Hello Gradle! Hello Spring Boot!";
+        return "Hello Gradle! Hello Spring Boot! Second Commit";
     }
 }
